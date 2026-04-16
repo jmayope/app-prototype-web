@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="CocheraYa" company="" webLink="http://" view-date="2026-04-17" view-index="0" gantt-divider-location="351" resource-divider-location="507" version="3.2.3240" locale="es_ES">
+    <description><![CDATA[Administración de vehículos en cochera]]></description>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="200" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="75" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="75" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="161" order="0"/>
+        <field id="1" name="Función" width="327" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="PLANIFICACIÓN" meeting="false" start="2026-04-01" duration="7" complete="0" expand="true">
+            <task id="6" name="Brainstorming (Tormenta de Ideas)" color="#8cb6ce" meeting="false" start="2026-04-01" duration="2" complete="0" thirdDate="2026-04-15" thirdDate-constraint="0" expand="true">
+                <depend id="7" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="7" name="Análisis de Requerimientos" color="#8cb6ce" meeting="false" start="2026-04-03" duration="1" complete="0" thirdDate="2026-04-15" thirdDate-constraint="0" expand="true">
+                <depend id="8" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="8" name="Historias de Usuario - Casos de Uso" color="#8cb6ce" meeting="false" start="2026-04-06" duration="4" complete="0" thirdDate="2026-04-15" thirdDate-constraint="0" expand="true">
+                <depend id="9" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="1" name="DISEÑO CONCEPTUAL" meeting="false" start="2026-04-10" duration="8" complete="0" expand="true">
+            <task id="9" name="Wireframes y Sketching" color="#8cb6ce" meeting="false" start="2026-04-10" duration="3" complete="0" thirdDate="2026-04-15" thirdDate-constraint="0" expand="true"/>
+            <task id="10" name="Arquitectura de Base de Datos" color="#8cb6ce" meeting="false" start="2026-04-14" duration="4" complete="0" thirdDate="2026-04-15" thirdDate-constraint="0" expand="true"/>
+            <task id="11" name="Diseño de HTML y CSS" color="#8cb6ce" meeting="false" start="2026-04-16" duration="4" complete="0" thirdDate="2026-04-15" thirdDate-constraint="0" expand="true">
+                <depend id="12" type="2" difference="0" hardness="Strong"/>
+                <depend id="13" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="2" name="DESARROLLO" meeting="false" start="2026-04-22" duration="5" complete="0" expand="true">
+            <task id="12" name="Backend (API/Lódica)" color="#8cb6ce" meeting="false" start="2026-04-22" duration="5" complete="0" thirdDate="2026-04-15" thirdDate-constraint="0" expand="true"/>
+            <task id="13" name="Frontend (Interactividad)" color="#8cb6ce" meeting="false" start="2026-04-22" duration="5" complete="0" thirdDate="2026-04-15" thirdDate-constraint="0" expand="true"/>
+            <task id="14" name="Integración" color="#8cb6ce" meeting="false" start="2026-04-24" duration="3" complete="0" thirdDate="2026-04-15" thirdDate-constraint="0" expand="true">
+                <depend id="15" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="3" name="PRUEBAS" meeting="false" start="2026-04-29" duration="6" complete="0" expand="true">
+            <task id="15" name="Unitarias / Integración" color="#8cb6ce" meeting="false" start="2026-04-29" duration="1" complete="0" thirdDate="2026-04-15" thirdDate-constraint="0" expand="true">
+                <depend id="16" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="16" name="Pruebas de Aceptación de Usuario (UAT)" color="#8cb6ce" meeting="false" start="2026-04-30" duration="5" complete="0" thirdDate="2026-04-15" thirdDate-constraint="0" expand="true">
+                <depend id="17" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="4" name="CORRECCIÓN" meeting="false" start="2026-05-07" duration="5" complete="0" expand="true">
+            <task id="17" name="Errores Críticos" color="#8cb6ce" meeting="false" start="2026-05-07" duration="3" complete="0" thirdDate="2026-04-15" thirdDate-constraint="0" expand="true">
+                <depend id="18" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="18" name="Observaciones Menores" color="#8cb6ce" meeting="false" start="2026-05-12" duration="2" complete="0" thirdDate="2026-04-15" thirdDate-constraint="0" expand="true">
+                <depend id="19" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="5" name="CIERRE" meeting="false" start="2026-05-14" duration="12" complete="0" expand="true">
+            <task id="19" name="Documentación" color="#8cb6ce" meeting="false" start="2026-05-14" duration="5" complete="0" thirdDate="2026-04-15" thirdDate-constraint="0" expand="true">
+                <depend id="20" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="20" name="Despliegue" color="#8cb6ce" meeting="false" start="2026-05-21" duration="3" complete="0" thirdDate="2026-04-15" thirdDate-constraint="0" expand="true">
+                <depend id="21" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="21" name="Capacitación" color="#8cb6ce" meeting="false" start="2026-05-26" duration="4" complete="0" thirdDate="2026-04-15" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Carlos Chavez" function="1" contacts="cchavez@osinerming.gob.pe" phone="965848848">
+            <rate name="standard" value="80"/>
+        </resource>
+        <resource id="1" name="Jorge Mayo" function="5" contacts="jorgemayo.pe@gmail.com" phone="956494959">
+            <rate name="standard" value="80"/>
+        </resource>
+        <resource id="2" name="Jose Gamarra" function="3" contacts="jgamarra@gmail.com" phone="942554305">
+            <rate name="standard" value="60"/>
+        </resource>
+        <resource id="3" name="Maryori Chuctaya" function="6" contacts="mchuctaya@gmail.com" phone="954208297">
+            <rate name="standard" value="70"/>
+        </resource>
+        <resource id="4" name="Jesus Rodriguez" function="7" contacts="jrodriguez@gmail.com" phone="948122299">
+            <rate name="standard" value="90"/>
+        </resource>
+        <resource id="5" name="Clever Torres" function="2" contacts="ctorres@gmail.com" phone="969886406">
+            <rate name="standard" value="65"/>
+        </resource>
+    </resources>
+    <allocations>
+        <allocation task-id="7" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="8" resource-id="0" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="10" resource-id="0" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="6" resource-id="1" function="5" responsible="false" load="100.0"/>
+        <allocation task-id="7" resource-id="1" function="5" responsible="false" load="100.0"/>
+        <allocation task-id="10" resource-id="1" function="5" responsible="true" load="100.0"/>
+        <allocation task-id="12" resource-id="1" function="5" responsible="true" load="100.0"/>
+        <allocation task-id="14" resource-id="1" function="5" responsible="true" load="100.0"/>
+        <allocation task-id="16" resource-id="1" function="5" responsible="true" load="100.0"/>
+        <allocation task-id="17" resource-id="1" function="5" responsible="true" load="100.0"/>
+        <allocation task-id="18" resource-id="1" function="5" responsible="true" load="100.0"/>
+        <allocation task-id="19" resource-id="1" function="5" responsible="false" load="100.0"/>
+        <allocation task-id="20" resource-id="1" function="5" responsible="true" load="100.0"/>
+        <allocation task-id="21" resource-id="1" function="5" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="15" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="17" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="19" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="6" resource-id="3" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="3" function="6" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="3" function="6" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="3" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="3" function="6" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="3" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="13" resource-id="3" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="17" resource-id="3" function="6" responsible="false" load="100.0"/>
+        <allocation task-id="18" resource-id="3" function="6" responsible="false" load="100.0"/>
+        <allocation task-id="19" resource-id="3" function="6" responsible="false" load="100.0"/>
+        <allocation task-id="20" resource-id="3" function="6" responsible="false" load="100.0"/>
+        <allocation task-id="21" resource-id="3" function="6" responsible="false" load="100.0"/>
+        <allocation task-id="6" resource-id="4" function="7" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="4" function="7" responsible="false" load="100.0"/>
+        <allocation task-id="13" resource-id="4" function="7" responsible="false" load="100.0"/>
+        <allocation task-id="14" resource-id="4" function="7" responsible="false" load="100.0"/>
+        <allocation task-id="15" resource-id="4" function="7" responsible="false" load="100.0"/>
+        <allocation task-id="16" resource-id="4" function="7" responsible="false" load="100.0"/>
+        <allocation task-id="17" resource-id="4" function="7" responsible="false" load="100.0"/>
+        <allocation task-id="19" resource-id="4" function="7" responsible="false" load="100.0"/>
+        <allocation task-id="6" resource-id="5" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="5" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="15" resource-id="5" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="16" resource-id="5" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="19" resource-id="5" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="21" resource-id="5" function="2" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+    <roles>
+        <role id="1" name="Product Owner"/>
+        <role id="2" name="Analista Funcional"/>
+        <role id="3" name="Diseñador UI/UX"/>
+        <role id="4" name="Diseñador Frontend(HTML + CSS)"/>
+        <role id="5" name="Desarrollador Backend"/>
+        <role id="6" name="Desarrollador Frontend"/>
+        <role id="7" name="Responsable de Calidad (QA)"/>
+        <role id="8" name="Documentador"/>
+    </roles>
+</project>
