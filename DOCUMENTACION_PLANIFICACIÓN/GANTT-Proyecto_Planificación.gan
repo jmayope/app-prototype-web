@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="CocheraYa" company="" webLink="http://" view-date="2026-04-17" view-index="0" gantt-divider-location="351" resource-divider-location="507" version="3.2.3240" locale="es_ES">
+<?xml version="1.0" encoding="UTF-8"?><project name="CocheraYa" company="" webLink="http://" view-date="2026-03-30" view-index="0" gantt-divider-location="351" resource-divider-location="507" version="3.2.3240" locale="es_ES">
     <description><![CDATA[Administración de vehículos en cochera]]></description>
-    <view zooming-state="default:2" id="gantt-chart">
+    <view zooming-state="default:4" id="gantt-chart">
         <field id="tpd3" name="Nombre" width="200" order="0"/>
         <field id="tpd4" name="Fecha de inicio" width="75" order="1"/>
         <field id="tpd5" name="Fecha de fin" width="75" order="2"/>
